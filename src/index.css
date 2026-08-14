@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display');
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #080808;
+}
+
+.no-scroll-page {
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes hotspot-pulse {
+  0%, 100% { opacity: 0.75; }
+  50% { opacity: 1; }
+}
